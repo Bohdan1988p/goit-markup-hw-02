@@ -1,0 +1,244 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.list{
+list-style: none;
+}
+
+.link{
+    text-decoration: none
+}
+
+body {
+    font-family: 'Roboto',sans-serif;}
+    /* /---------------HEADER------------/ */
+    .header {
+        background: #FFFFFF;
+}
+.header-nav {
+}
+.logo link {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-span {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+     letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.nav-list {
+}
+
+.nav-item {
+}
+.nav-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.nav-link:hover,.nav-link:focus  {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    cursor: pointer;
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-link:hover, .header-link:focus {
+font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    cursor: pointer;
+}
+/* /------------------HERO-----------/ */
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+            background-color: #2196F3;
+}
+
+.hero-btn:hover,.hero-btn:focus {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color:#2196F3;
+        background-color: #FFFFFF;
+cursor: pointer;   
+}
+/* /-------------ПЕРЕВАГИ--------------/ */
+.benefits {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-title {
+    font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+
+.benefits-text {
+    font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* /----------------РОБОТА---------------/ */
+.work-title {
+    font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.work-list {}
+
+.work-item {}
+/* /------------КОМАНДА----------/ */
+.team {
+    background: #F5F5F5;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-item-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.team-item-text {
+    font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* /-----------------FOOTER--------------/ */
+.footer {
+    background: #2F303A;
+}
+
+.footer-adress {}
+
+.footer-list {}
+
+.list {}
+
+.footer-item {}
+
+.footer-link {
+    font-style: normal;
+               font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+.footer-link-em{
+    
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-tel{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+         letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-tel:hover,.footer-link-tel:focus,
+.footer-link:hover,.footer-link:focus,
+.footer-link-em:hover,.footer-link-em:focus{
+font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    cursor: pointer;
+}
